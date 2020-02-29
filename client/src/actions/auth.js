@@ -12,7 +12,6 @@ import {
 } from "./types";
 
 import setAuthToken from "../utils/setAuthToken";
-import { pathToFileURL } from "url";
 
 // Load User
 export const loadUser = () => async dispatch => {
